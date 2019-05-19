@@ -18,3 +18,5 @@ https://www.facebook.com/dialog/oauth?response_type=code&client_id=4107887664388
 Log into facebook.
 ![image](https://user-images.githubusercontent.com/50174329/57985495-71810d00-7a86-11e9-84b3-2ddd63128cba.png)
 User Consent Page will show the resources of the user account that can be accessed by the application. 
+![image](https://user-images.githubusercontent.com/50174329/57985580-92962d80-7a87-11e9-8f9d-b1287a885988.png)
+Click Continue then facebook will redirect the browser to the Redirection Endpoint URL which has been defined in the app settings and along with the URL, it will send the query parameter code, which is the authorization code. 
