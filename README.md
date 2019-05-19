@@ -8,3 +8,5 @@ Insert display name and the contact email to create the application.
 Associate “Facebook Login” with the application.
 ![image](https://user-images.githubusercontent.com/50174329/57983857-e8f97100-7a73-11e9-986a-9abe31898448.png)
 Type the Redirection Endpoint URL. 
+![image](https://user-images.githubusercontent.com/50174329/57984884-c10f0b00-7a7d-11e9-8886-fd7162c84212.png)
+Find the App ID and the App Secret of the application.
