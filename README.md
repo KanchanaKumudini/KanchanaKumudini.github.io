@@ -20,3 +20,10 @@ Log into facebook.
 User Consent Page will show the resources of the user account that can be accessed by the application. 
 ![image](https://user-images.githubusercontent.com/50174329/57985580-92962d80-7a87-11e9-8f9d-b1287a885988.png)
 Click Continue then facebook will redirect the browser to the Redirection Endpoint URL which has been defined in the app settings and along with the URL, it will send the query parameter code, which is the authorization code. 
+Get the URL from the browser
+http://localhost:8080/facebookapp/callback?code=AQC_SqeuC6SaYsJZKTk1FdDCBtTZXxRrzrwsOWUkG3OoL6axiNWF1Xo8Ri3Y6IwRcYC-YSKyySs3BUc1eA4GCyoM2Z7WnsDyGwk5G-5aHS0R03_gcsD6mkx3K8Q8hL248pX817QVRbWBsYy3Wip1Y0tM7Oeg7a5ggC3iOvGx1WdPtxXIPH20a9xy5gm2_7vw3xDge_Nng2ZJt791Bn85EGT69w5sWqD0RrRkMTYSgvGLSlldZUHFUYyWE8eW2z5NByJByCyi1Mm6EDYjIcgYGyI26np4JJlYCxIb-Q7Onph8pmWynoatA1XBrDNsqw5RvKQ#_=_
+Step 3 - Obtaining the Access Token
+Request an OAuth access token from facebook, which can be used to access user resources. Send a HTTP POST request to the Token Endpoint of facebook using the authorization code received in the previous step to https://graph.facebook.com/oauth/access_token. 
+Prepare the parameter values. (App ID=410788766438800, App Secret=68d00ce4b68af62439703eca89829748, App ID:App Secret=410788766438800:68d00ce4b68af62439703eca89829748, Base64 App ID: App Secret=NDEwNzg4NzY2NDM4ODAwOjY4ZDAwY2U0YjY4YWY2MjQzOTcwM2VjYTg5ODI5NzQ4)
+Authentication: Basic NDEwNzg4NzY2NDM4ODAwOjY4ZDAwY2U0YjY4YWY2MjQzOTcwM2VjYTg5ODI5NzQ4
+Use a HTTP Client browser plugin like RESTClient. 
